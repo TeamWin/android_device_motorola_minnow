@@ -15,13 +15,13 @@
 
 # Ramdisk files
 PRODUCT_COPY_FILES += \
-device/moto/minnow/recovery_ramdisk/etc/recovery.fstab:root/etc/recovery.fstab \
-device/moto/minnow/recovery_ramdisk/etc/twrp.fstab:root/etc/twrp.fstab \
-device/moto/minnow/recovery_ramdisk/firmware/image/atmxt-r2.tdat:root/firmware/image/atmxt-r2.tdat \
-device/moto/minnow/recovery_ramdisk/firmware/image/atmxt-r3.tdat:root/firmware/image/atmxt-r3.tdat \
-device/moto/minnow/recovery_ramdisk/fstab.minnow:root/fstab.minnow \
-device/moto/minnow/recovery_ramdisk/init:root/init \
-device/moto/minnow/recovery_ramdisk/init.mmi.boot.sh:root/init.mmi.boot.sh \
-device/moto/minnow/recovery_ramdisk/init.rc:root/init.rc \
-device/moto/minnow/recovery_ramdisk/ueventd.minnow.rc:root/ueventd.minnow.rc
+device/motorola/minnow/recovery_ramdisk/etc/recovery.fstab:root/etc/recovery.fstab \
+device/motorola/minnow/recovery_ramdisk/etc/twrp.fstab:root/etc/twrp.fstab \
+device/motorola/minnow/recovery_ramdisk/firmware/image/atmxt-r2.tdat:root/firmware/image/atmxt-r2.tdat \
+device/motorola/minnow/recovery_ramdisk/firmware/image/atmxt-r3.tdat:root/firmware/image/atmxt-r3.tdat \
+device/motorola/minnow/recovery_ramdisk/fstab.minnow:root/fstab.minnow \
+device/motorola/minnow/recovery_ramdisk/init:root/init \
+device/motorola/minnow/recovery_ramdisk/init.mmi.boot.sh:root/init.mmi.boot.sh \
+device/motorola/minnow/recovery_ramdisk/init.rc:root/init.rc \
+device/motorola/minnow/recovery_ramdisk/ueventd.minnow.rc:root/ueventd.minnow.rc
 

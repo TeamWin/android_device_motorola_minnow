@@ -24,7 +24,7 @@ COMMON_GLOBAL_CFLAGS += -DUSE_MOTOROLA_CODE -DUSE_MOTOROLA_USERS -DMOTOROLA_UIDS
 TARGET_NEEDS_MOTOROLA_HIJACK := true
 
 # Graphics
-BOARD_EGL_CFG := device/moto/minnow/egl.cfg
+BOARD_EGL_CFG := device/motorola/minnow/egl.cfg
 COMMON_GLOBAL_CFLAGS += -DOMAP_COMPAT -DBINDER_COMPAT -DHAS_CONTEXT_PRIORITY -DDONT_USE_FENCE_SYNC
 DEFAULT_FB_NUM := 0
 GL_OES_compressed_ETC1_RGB8_texture := true
@@ -38,17 +38,17 @@ BOARD_EGL_WORKAROUND_BUG_10194508 := true
 TARGET_NO_BOOTLOADER := true
 TARGET_NO_RADIOIMAGE := true
 
-TARGET_SPECIFIC_HEADER_PATH := device/moto/minnow/include
+TARGET_SPECIFIC_HEADER_PATH := device/motorola/minnow/include
 
 TARGET_SYSTEMIMAGE_USE_SQUISHER := true
 
 TARGET_PROVIDES_INIT_TARGET_RC := true
 
-TARGET_PREBUILT_KERNEL := device/moto/minnow/kernel
+TARGET_PREBUILT_KERNEL := device/motorola/minnow/kernel
 
 # Inline kernel building config
 #TARGET_KERNEL_CONFIG := minnow_defconfig
-#TARGET_KERNEL_SOURCE := kernel/moto/minnow
+#TARGET_KERNEL_SOURCE := kernel/motorola/minnow
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_KERNEL_BASE := 0x10000000
 BOARD_KERNEL_CMDLINE := := rootwait init=/init utags.blkdev=/dev/block/platform/ocp.2/mmcblk0p7 omapfb.vram=0:1200K
@@ -79,7 +79,7 @@ BOARD_HAS_LOCKED_BOOTLOADER := true
 BOARD_ALWAYS_INSECURE := true
 BOARD_HAS_LARGE_FILESYSTEM := true
 BOARD_HAS_NO_SELECT_BUTTON := true
-TARGET_RECOVERY_FSTAB := device/moto/minnow/fstab.minnow
+TARGET_RECOVERY_FSTAB := device/motorola/minnow/fstab.minnow
 RECOVERY_FSTAB_VERSION := 2
 #TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"font_7x16.h\"
@@ -93,7 +93,7 @@ TW_NO_USB_STORAGE := true
 TW_INCLUDE_JB_CRYPTO := true
 BOARD_SUPPRESS_SECURE_ERASE := true
 RECOVERY_SDCARD_ON_DATA := true
-TARGET_RECOVERY_INITRC := device/moto/minnow/recovery_ramdisk/init.rc
+TARGET_RECOVERY_INITRC := device/motorola/minnow/recovery_ramdisk/init.rc
 TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
 
 TARGET_OTA_ASSERT_DEVICE := minnow

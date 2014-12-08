@@ -21,7 +21,7 @@
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
-$(call inherit-product, device/moto/minnow/minnow.mk)
+$(call inherit-product, device/motorola/minnow/minnow.mk)
 $(call inherit-product, build/target/product/full.mk)
 
 # Galaxy SL uses high-density artwork where available
@@ -31,6 +31,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 # Discard inherited values and use our own instead.
 PRODUCT_NAME := full_minnow
 PRODUCT_DEVICE := minnow
-PRODUCT_BRAND := moto
-PRODUCT_MANUFACTURER := moto
+PRODUCT_BRAND := motorola
+PRODUCT_MANUFACTURER := motorola
 PRODUCT_MODEL := 360
