@@ -8,4 +8,3 @@
 /cache			ext4		/dev/block/mmcblk0p15
 /system			ext4		/dev/block/mmcblk0p14
 /data			ext4		/dev/block/mmcblk0p17 length=-16384
-#/utags			emmc		/dev/block/mmcblk0p7	flags=display="utags";backup=1
